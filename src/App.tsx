@@ -5,11 +5,11 @@ function App() {
   return (
     <Canvas
       shadows
-      camera={{ position: [3, 3, 3], fov: 30 }}
+      camera={{ position: [0, 0, 130], fov: 50, far: 60 }}
     >
       <color
         attach="background"
-        args={['#ececec']}
+        args={['black']}
       />
       <Experience />
     </Canvas>
